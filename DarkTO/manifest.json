@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Dark TO",
+    "description": "Темная тема для танков онлайн",
+    "version": "1.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.tankionline.com/play/*",
+                "http://*.tankionline.com/play/*"
+            ],
+            "css":[
+                "./dist/css/alwan.min.css",
+                "./styles/menu.css",
+                "./styles/theme.css"
+            ],
+            "js": [
+                "./dist/js/alwan.min.js",
+                "./scripts/hotkeys.min.js",
+                "./scripts/data.js",
+                "./scripts/script.js",
+                "./scripts/timer.js",
+                "./scripts/menu.js"
+            ]
+        }
+    ]
+}

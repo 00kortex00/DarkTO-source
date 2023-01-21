@@ -1,0 +1,245 @@
+*::selection{
+    background-color: red;
+    color: #000;
+}
+:root{
+    --color: red;
+    --color2: rgba(255, 0, 0, 0.25);
+
+    --color3: rgb(51, 0, 0);
+    --color4: rgba(51, 0, 0, 0.25);
+
+    --color5: rgba(51, 0, 0, 0.15);
+
+    --bg: #111;
+    --bg2: #111111a8;
+    --bg3: #00000091;
+}
+        /* Главное меню */
+/* Затемнение фона */
+.cDlKHX{
+    filter: brightness(0.8) !important;
+}
+/* Кнопка играть */
+.lfCMph, .fXlQWJ, .hIGTCJ, .gqJzCp{
+    writing-mode: vertical-lr !important;
+    text-orientation: upright !important;
+    font-size: 0.6em !important;
+    width: 5em !important;
+    height: 19em !important;
+    border-radius: 0 !important;
+    background-image: none !important;
+    background-color: var(--bg2) !important;
+    box-shadow: #fff 0em 0em 0em 0.2em !important;
+    transform: translate(0.9em, 0) !important;
+    transition: 0.33s ease !important;
+}
+.fXlQWJ, .gqJzCp{
+    box-shadow: var(--color) 0em 0em 0em 0.2em !important;
+}
+.lfCMph:hover, .hIGTCJ:hover{
+    box-shadow: #fff 0em 0em 2em 0.2em !important;
+}
+.lfCMph span, .hIGTCJ span{
+    font-size: 2em !important;
+    color: #fff !important;
+}
+/* Кнопка играть, когда битва ищется */
+.fXlQWJ h3, .gqJzCp h3{
+    display: none !important;
+}
+.fILFWe, .fILFWe{
+    filter: grayscale(1);
+}
+.cvQSG{
+    margin-top: 0 !important;
+}
+/* Информация о поиске битвы */
+.cyBSfC{
+    background-image: none !important;
+    background-color: var(--bg3) !important;
+    box-shadow: #fff 0em 0em 0em 0.1em !important;
+    top: 0 !important;
+    left: 50% !important;
+    transform: translate(-50%, 0);
+    height: auto !important;
+    backdrop-filter: blur(4px) !important;
+}
+.geFdvE, .eYnzAJ, .dXhWmn, .qwMHm, .fjzdhZ, .bTSudg, .gPtvsE, .gPtvsE{
+    display: none !important;
+}
+/* Кнопки гаража, миссий, магазина... */
+.eAeZII span, .kjhnER, .dZAJoz span, .CQLbD span, .menuItemClass span{
+    display: none !important;
+}
+.eAeZII, .dZAJoz, .CQLbD, .gYKrST, .menuItemClass{
+    box-shadow: none !important;
+    width: 4em !important;
+}
+.iKdfkd{
+    margin: 0 !important;
+}
+.menuItemClass{
+    filter: brightness(0.8) !important;
+    transition: 0.33s ease !important;
+}
+.menuItemClass:hover{
+    filter: brightness(0.9) !important;
+    transform: scale(1.1) !important;
+    filter: drop-shadow(0 0 0.5em #dfdfdf7a) !important;
+}
+/* Кнопки снижу (чат, друзья...) */
+.hIZphC ul li{
+    box-shadow: none !important;
+}
+/* Полоска опыта и цифры */
+.byzxmD, .DcpLY, .dcqzlJ, .bFzXJG, .hoJnIW, .dBLMpb, .keoPnw, .enAESO, .UTOHV div:nth-child(2){
+    background-color: var(--color2) !important;
+}
+.byzxmD::after, .DcpLY::after, .hoJnIW::after, .dcqzlJ::after, .bFzXJG::after, .enAESO::after, .dBLMpb::after, .keoPnw::after, .UTOHV div:nth-child(2)::after{
+    background-color: var(--color) !important;
+}
+.bxlbOZ span{
+    color: var(--color) !important;
+}
+/* Челленджи в главном меню */
+.kfZaLl{
+    background: linear-gradient(0deg, var(--color4) 0%, var(--color3) 100%) !important;
+}
+/* Новости в главноем меню */
+.dXaiEc{
+    background: linear-gradient(0deg, var(--color4) 0%, var(--color3) 100%) !important;
+}
+.evoMzZ{
+   background-color: var(--color4) !important; 
+}
+    /*  Фон гаража итд*/
+body{
+    background: var(--bg) !important;
+}
+    /* Загрузочные экраны, фон гаража, Первый загрузочный экран итд */
+.Yfwvt, .jhvmvA, .liPcsK{
+    background: linear-gradient(rgba(0,0,0,0.3) 0%, var(--bg) 100%) !important;
+}
+.SKSgu img, .iehjxs{
+    filter: grayscale(1) !important;
+}
+.budGjm{
+    filter: invert(24%) sepia(39%) saturate(3895%) hue-rotate(37deg) brightness(103%) contrast(111%) grayscale(1) !important;
+}
+    /* Гараж */
+/* Текст гса пушки, дрона, корпуса... */
+.fqQQpT span{
+    color: var(--color) !important;
+}
+/* фон и текст выбранной экиперовки в любом разделе */
+.jZFGqO{
+    background-color: var(--color4) !important;
+}
+.dSWBJv{
+    box-shadow: var(--color) 0em 0em 0em 0.063em !important;
+    background-color: var(--color5) !important;
+}
+.iMlWtc span, .dSFrsP{
+    color: var(--color) !important;
+}
+.jZFGqO:hover{
+    box-shadow: var(--color) 0em 0em 0em 0.125em !important;
+}
+/* Фон под строкой экиперовки в любом разделе */
+.OFYUV, .iJrqPp{
+    background: linear-gradient(rgba(0,0,0,0) 0%, var(--color3)) !important;
+}
+.dKcbgr, .cUXgen{
+    background: linear-gradient(-90deg, var(--color3) 0%, rgba(0, 0, 0, 0) 100%) !important;
+}
+/* Каждое слово списка разделов */
+.bBNcqn, .bxQNmK:hover{
+    color: var(--color) !important;
+}
+.jvxfAc{
+    background-color: var(--color) !important;
+    box-shadow: var(--color) 0em 0em 0.375em !important;
+}
+/* Цвет модицикации экипировки и ее описания */
+.iuzwqT, .eBDkML span, .bCVsFp, a, .kxVIeR, .deEzdn, .HOAtf, .hZVMYW div h4, .gIwpSE, .jTDZND, .hNcffM h2, .hNcffM div, .gGePwj, .kvXiHY, .dZiCHL, .jjFCha, .eycXkW /* кнопка "войти" */{
+    color: var(--color) !important;
+    text-shadow: none !important;
+}
+.kXmnCB, .jdDhxM, .emlYcL, .gOGbeI, .dkycnQ, .cQJRPR, .dyhWyN, .eybLid{
+    background-color: var(--color) !important;
+}
+.gbCNGN, .ddDlzz, .kQvqBL, .iQAYaw, .beDZil, .cWlucg, .eTSGoS, .cXyBtf, .csxBlu, .ihkepq, .gflmSP{
+    background-color: var(--color2) !important;
+}
+.chnfHI, .gzmfDL, .koDGzR h2, .ixiwue, .byGQXt span, .dpgIic, .iVFnRa{
+    color: var(--color) !important;
+}
+.gzmfDL, .koDGzR h2{
+    text-shadow: var(--color) 0px 0px 0.375em !important;
+}
+.cjqcgy progress::-webkit-progress-bar, .iMOmLm progress::-webkit-progress-bar, .jTGFBV{
+    background-color: var(--color2) !important;
+}
+.cjqcgy progress::-webkit-progress-value, .iMOmLm progress::-webkit-progress-value{
+    background-color: var(--color) !important;
+}
+
+/* Кнопка "надеть" экиперовку и другие кнопки зеленого цвета */
+.kqnBlu, .gLmYSm{
+    box-shadow: var(--color2) 0em 0em 0em 0.063em !important;
+}
+.hkFIlE, .bCVAbE::before, .kexcVg, .fjXgFw, .fccLSA img{
+    filter: grayscale(1) !important;
+}
+.ihlfyK div, .hgbMQJ div, .ieoVMd, .iGVEHP{
+    background-color: var(--color) !important;
+}
+.iDCnKU{
+    background: none !important;
+    background-color: var(--color3) !important;
+    box-shadow: var(--color) 0em 0em 0em 0.063em !important;
+}
+.iDCnKU div{
+    background-color: var(--color2) !important;
+}
+.dOjthT, .gcjWgl, .hoGfch, .hWKRi, .jIFflB, .hMEIgC, .kockdE, .WdbGq, .iJTrJc, .dyQtwV, .bYzkoQ, .djbUcA, .ebStOW, .jpbcKN, .eaaRGk, .eYRmAg, .jUsJHW, .bKSnCo, .zQTml, .bBQpLv, .bCVAbE/* кнопка "запомнить" */, .jplTTR/* кнопка "играть" */, .gnUGmh, .cVHNvU, .fccLSA, .hqiePm, .cardImgEvents, .ihlfyK, .hgbMQJ{
+    background: none !important;
+    background-color: var(--color2) !important;
+    box-shadow: var(--color) 0em 0em 0em 0.063em !important;
+}
+.dOjthT span, .gcjWgl span, .jhsLQo:hover h2, .eECgNf, .ipKCnq, .jhsLQo:hover span, .hoGfch span, .lcUUGL, .jIFflB span, .ebStOW span, .jUsJHW span, .izFhfY, .kvZEKy, .jplTTR span, .gnUGmh span, .bHxnyL, .eZsGxF span, .bBQpLv span, .cVHNvU span, .fkALzf{
+    color: var(--color) !important;
+}
+.dOjthT:hover, .gcjWgl:hover, .hoGfch:hover, .kockdE:hover, .hWKRi:hover, .ebStOW:hover, .jhsLQo:hover, .jUsJHW:hover, .cVHNvU:hover, .eYRmAg:hover, .eaaRGk:hover, .jIFflB:hover, .bCVAbE:hover, .bBQpLv:hover, .jplTTR:hover, .gnUGmh:hover, .djbUcA:hover, .bKSnCo, .fccLSA:hover, .zQTml:hover, .hqiePm:hover, .cardImgEvents:hover, .iwFGRA:hover, .hgbMQJ:hover{
+    background: none !important;
+    background-color: var(--color2) !important;
+    box-shadow: var(--color) 0em 0em 0em 0.125em !important;
+}
+.blockCard:hover .bmtvil, .blockCard:hover .jAzrYq, .blockCard:hover .dfwGyS, .blockCard:hover .kDhbDB, .blockCard:hover .kFwQXs, .blockCard:hover .hIheOa, .blockCard:hover .jRdmkF, .blockCard:hover .jWwvcp{
+    background-color: var(--color) !important;
+}
+/* Чат */
+.eVpBab, .eyYstp, .fipYyc{
+    background: var(--bg) !important;
+}
+.iHoTnH::before, .eyYstp, .fipYyc, .drLXPQ{
+    color: var(--color) !important;
+}
+.bvGueq{
+    color: #fff !important;
+}
+.jJoMGx{
+    color: #dfdfdf !important;
+}
+.kHmoHh{
+    border-color: var(--color) transparent transparent !important;
+}
+/* Таб */
+.jQLjp, .klaDRA{                                        
+    background: rgba(17, 17, 17, 0.7) !important;
+}   
+/* Меню паузы */
+.gBSJRi{
+    background: rgba(17, 17, 17, 0.5) !important;
+}
