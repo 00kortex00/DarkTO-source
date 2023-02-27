@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Dark TO",
+    "description": "Dark Theme for Tanki Online",
+    "version": "1.3",
+    "icons": {
+        "16": "./assets/icon/16x.png",
+        "48": "./assets/icon/48x.png",
+        "128": "./assets/icon/128x.png",
+        "256": "./assets/icon/256x.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.tankionline.com/play/*",
+                "http://*.tankionline.com/play/*"
+            ],
+            "css":[
+                "./dist/css/alwan.min.css",
+                "./styles/menu.css",
+                "./styles/theme.css"
+            ],
+            "js": [
+                "./dist/js/alwan.min.js",
+                "./scripts/hotkeys.min.js",
+                "./scripts/data.js",
+                "./scripts/script.js",
+                "./scripts/timer.js",
+                "./scripts/menu.js"
+            ]
+        }
+    ]
+}
